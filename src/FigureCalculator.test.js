@@ -33,7 +33,7 @@ describe('A calculateRectanglePerimeter function', () => {
     expect(() => figureCalculator.calculateRectanglePerimeter(null, false)).toThrowError();
   });
 
-  it('Should return the correct value based on the perimeter of a square formula', () => {
+  it('Should return the correct value based on rectangle perimeter formula', () => {
     // arrange
     const length = 20;
     const width = 10;
@@ -68,7 +68,7 @@ describe('A calculateRectangleArea Function', () => {
     expect(() => figureCalculator.calculateRectangleArea(null, false)).toThrowError();
   });
 
-  it('should return the correct value base on the area of a square formula', () => {
+  it('should return the correct value based on rectangle area formula', () => {
     // arrange
     const length = 20;
     const width = 10;
@@ -99,7 +99,7 @@ describe('A calculateTrianglePerimeter Function', () => {
     expect(() => figureCalculator.calculateTrianglePerimeter(null, false)).toThrowError();
   });
 
-  it('should return the correct value base on perimeter of triangle formula', () => {
+  it('should return the correct value based on triangle perimeter formula', () => {
     // arrange
     const sideA = 10;
     const sideB = 20;
@@ -132,7 +132,7 @@ describe('A calculateTrianglePerimeter Function', () => {
       expect(() => figureCalculator.calculateTriangleArea(null, false)).toThrowError();
     });
 
-    it('should return the correct value base on area of triangle formula', () => {
+    it('should return the correct value based on triangle area formula', () => {
       // arrange
       const base = 10;
       const height = 20;
