@@ -12,6 +12,7 @@
         "ecmaVersion": "latest"
     },
     "rules": {
-        "no-underscore-dangle": ["error", {"allow": ["_validateArgs"]} ]
+        "no-underscore-dangle": ["error", {"allow": ["_validateArgs"]} ],
+        "no-console":"off"
     }
 }
